@@ -1,0 +1,231 @@
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,#ff6b6b, #5f27cd);
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 50px 30px;
+}
+.container *{
+    font-family: "Verdana",sans-serif;
+    border: none;
+    outline: none;
+}
+.inputs-wrapper{
+    background-color: #080808;
+    padding: 25px 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 100px;
+}
+input,
+button{
+    height: 50px;
+    background-color: #ffffff;
+    color: #080808;
+    font-weight: 500;
+    border-radius: 10px;
+}
+input{
+    width: 65%;
+    padding: 0 20px;
+    font-size: 15px;
+}
+button{
+    width: 30%;
+    float: right;
+   transition: ease-out 0.2s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: ease-out 0.2s;
+}
+.outputs-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.outputs-wrapper div{
+    height: 100px;
+    width: 100px;
+    background-color: #080808;
+    border-radius: 20px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.text{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.text1{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.shadows::selection{
+    background-color: white;
+    color: black;
+}
+
+.size{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+.text{
+    font-family: Verdana;
+    font-size: 25px;
+
+
+}
+}
+
+@media screen and (max-width: 1600px) {
+.text1{
+    font-family: Verdana;
+    font-size: 21px;
+
+}
+}
+
+@media screen and (max-width: 1600px) {
+.size{
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+.inputs-wrapper{
+    background-color: #080808;
+    padding: 25px 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 710px;
+    height: 110px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+.outputs-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media screen and (max-width: 1600px) {
+.outputs-wrapper div{
+    height: 110px;
+    width: 110px;
+    background-color: #080808;
+    border-radius: 20px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+
+}
+}
+
+@media screen and (max-width: 1080px) {
+.inputs-wrapper{
+    background-color: #080808;
+    padding: 25px 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 520px;
+    height: 100px;
+}
+}
+
+@media screen and (max-width: 1080px) {
+.outputs-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media screen and (max-width: 1080px) {
+.outputs-wrapper div{
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    background-color: #080808;
+    border-radius: 20px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+
+}
+}
+
+
+@media screen and (max-width: 1080px) {
+.text{
+    font-family: Verdana;
+    font-size: 30px;
+
+
+}
+}
+
+@media screen and (max-width: 1080px) {
+.text1{
+    font-family: Verdana;
+    font-size: 30px;
+
+}
+}
+
+@media screen and (max-width: 1080px) {
+.size{
+    font-size: 35px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

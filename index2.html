@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		    <link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+	</head>
+	<style media="screen">
+		
+	</style>
+	<script type="text/javascript">
+		function BMI() {
+			var h=document.getElementById('h').value;
+			var w=document.getElementById('w').value;
+			var bmi=w/(h/100*h/100);
+			var bmio=(bmi.toFixed(2));
+
+			document.getElementById("result").innerHTML="Your BMI is " + bmio;
+		}
+	</script>
+	<body>
+<span class="shadow" id="logo" style="float: left;">BMI<span class="shadow" id="logo-s" >Calculator</span></span>
+         <span class="Home2"><a class="act" href="index2.html"><span class="shadow" style="font-size:20px;">BMI Calculator</span></a></span>
+        <span class="Home"><a class="act" href="index.html" style="font-size:15px;"><span class="shadow" style="font-size:20px;">Age Calculator</span></a></span>
+
+
+		<div>
+			<h2><span class="shadow">BMI Calculator</span></h2>
+			<p class="text"><span class="shadow">Height</span></p>
+			<input type="text" class="shadow" id="h">
+			<p class="text"><span class="shadow">Weight</span></p>
+			<input type="text" class="shadow" id="w">
+			<p id="result" class="shadow"></p>
+			<button class="btn" onClick="BMI()"><span class="shadow">Calculate</span></button>
+			<p id="info"><span class="shadow">Please enter height [cm] and weight [kg]</span></p>
+		</div>
+	</body>
+</html>
